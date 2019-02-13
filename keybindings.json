@@ -324,7 +324,7 @@
         "command": "-workbench.action.files.openFolder"
     },
     {
-        "key": "ctrl+p s",
+        "key": "ctrl+shift+s",
         "command": "workbench.action.files.saveAll"
     },
     {
@@ -732,7 +732,7 @@
         "command": "-workbench.action.files.revealActiveFileInWindows"
     },
     {
-        "key": "ctrl+p ctrl+shift+s",
+        "key": "ctrl+p s",
         "command": "workbench.action.files.saveWithoutFormatting"
     },
     {
@@ -846,5 +846,30 @@
         "key": "shift+alt+down",
         "command": "-editor.action.insertCursorBelow",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+o",
+        "command": "workbench.action.files.openFile"
+    },
+    {
+        "key": "ctrl+o",
+        "command": "-workbench.action.files.openFile"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "-workbench.action.quickOpenNavigateNextInFilePicker",
+        "when": "inFilesPicker && inQuickOpen"
+    },
+    {
+        "key": "ctrl+k s",
+        "command": "-workbench.action.files.saveWithoutFormatting"
+    },
+    {
+        "key": "ctrl+shift+s",
+        "command": "-workbench.action.files.saveAs"
     }
 ]
