@@ -3,4 +3,9 @@
     "workbench.colorTheme": "Dracula Soft",
     "editor.fontFamily": "'Liberation mono', 'Courier New', monospace",
     "window.titleBarStyle": "native"
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.scrollback": 10000,
+    "workbench.editor.enablePreview": false
 }
