@@ -27,7 +27,8 @@
     },
     {
         "key": "ctrl+k",
-        "command": "workbench.action.quickOpen"
+        "command": "workbench.action.quickOpen",
+        "when": "!terminalFocus"
     },
     {
         "key": "ctrl+p",
@@ -871,5 +872,29 @@
     {
         "key": "ctrl+shift+s",
         "command": "-workbench.action.files.saveAs"
+    },
+    {
+        "key": "ctrl+8",
+        "command": "-workbench.action.focusEighthEditorGroup"
+    },
+    {
+        "key": "ctrl+8",
+        "command": "workbench.action.lastEditorInGroup"
+    },
+    {
+        "key": "ctrl+9",
+        "command": "-workbench.action.lastEditorInGroup"
+    },
+    {
+        "key": "ctrl+9",
+        "command": "workbench.action.focusSideBar"
+    },
+    {
+        "key": "ctrl+0",
+        "command": "-workbench.action.focusSideBar"
+    },
+    {
+        "key": "ctrl+0",
+        "command": "workbench.action.focusPanel"
     }
 ]
