@@ -17,6 +17,32 @@
                 "kind": "build",
                 "isDefault": true
             }
+        },
+
+        {
+            "label": "clean",
+            "type": "shell",
+            "command": "make clean-kernel",
+            "options": {
+                "cwd": "${workspaceFolder}/.."
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build"
+        },
+
+        {
+            "label": "rebuild",
+            "type": "shell",
+            "command": "make clean-kernel && make bootimage",
+            "options": {
+                "cwd": "${workspaceFolder}/.."
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build"
         }
     ]
 }

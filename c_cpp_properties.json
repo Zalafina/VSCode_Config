@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "CONFIG_OF",
+                "CONFIG_ARCH_TCC803X",
+                "CONFIG_TCC803X",
+                "CONFIG_VIDEO_ADV_DEBUG",
+                "CONFIG_MEDIA_CONTROLLER",
+                "CONFIG_VIDEO_V4L2_SUBDEV_API",
+                "CONFIG_VIDEO_VIDEOSOURCE_VIDEODECODER_TC9590"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}
