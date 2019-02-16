@@ -11,5 +11,6 @@
     "terminal.integrated.scrollback": 10000,
     "workbench.editor.enablePreview": false,
     "editor.mouseWheelZoom": true,
-    "editor.mouseWheelScrollSensitivity": 2
+    "editor.mouseWheelScrollSensitivity": 2,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe"
 }
