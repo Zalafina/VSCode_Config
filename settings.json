@@ -16,5 +16,6 @@
     "python.venvPath": "C:\\Python",
     "python.venvFolders": [
         "venv"
-    ]
+    ],
+    "workbench.startupEditor": "none"
 }
