@@ -17,5 +17,6 @@
     "python.venvFolders": [
         "venv"
     ],
-    "workbench.startupEditor": "none"
+    "workbench.startupEditor": "none",
+    "editor.renderWhitespace": "boundary"
 }
