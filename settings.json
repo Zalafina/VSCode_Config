@@ -18,5 +18,6 @@
         "venv"
     ],
     "workbench.startupEditor": "none",
-    "editor.renderWhitespace": "boundary"
+    "editor.renderWhitespace": "boundary",
+    "files.trimTrailingWhitespace": true
 }
