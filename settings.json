@@ -19,5 +19,5 @@
     ],
     "workbench.startupEditor": "none",
     "editor.renderWhitespace": "boundary",
-    "files.trimTrailingWhitespace": true
+    "diffEditor.ignoreTrimWhitespace": false
 }
