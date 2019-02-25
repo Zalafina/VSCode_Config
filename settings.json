@@ -19,5 +19,6 @@
     ],
     "workbench.startupEditor": "none",
     "editor.renderWhitespace": "boundary",
-    "diffEditor.ignoreTrimWhitespace": false
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.tabCompletion": "on"
 }
