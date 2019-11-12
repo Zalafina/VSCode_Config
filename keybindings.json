@@ -27,8 +27,7 @@
     },
     {
         "key": "ctrl+k",
-        "command": "workbench.action.quickOpen",
-        "when": "!terminalFocus"
+        "command": "workbench.action.quickOpen"
     },
     {
         "key": "ctrl+p",
@@ -325,7 +324,7 @@
         "command": "-workbench.action.files.openFolder"
     },
     {
-        "key": "ctrl+shift+s",
+        "key": "ctrl+p s",
         "command": "workbench.action.files.saveAll"
     },
     {
@@ -733,7 +732,7 @@
         "command": "-workbench.action.files.revealActiveFileInWindows"
     },
     {
-        "key": "ctrl+p s",
+        "key": "ctrl+p ctrl+shift+s",
         "command": "workbench.action.files.saveWithoutFormatting"
     },
     {
@@ -783,118 +782,46 @@
         "command": "-workbench.action.tasks.build"
     },
     {
-        "key": "alt+left",
-        "command": "workbench.action.navigateBack"
+        "key": "ctrl+,",
+        "command": "-workbench.action.openSettings"
     },
     {
-        "key": "ctrl+alt+-",
-        "command": "-workbench.action.navigateBack"
+        "key": "ctrl+.",
+        "command": "-editor.action.quickFix",
+        "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
     },
     {
-        "key": "alt+left",
-        "command": "workbench.action.quickInputBack",
-        "when": "inQuickOpen"
+        "key": "ctrl+m",
+        "command": "-editor.action.toggleTabFocusMode"
     },
     {
-        "key": "ctrl+alt+-",
-        "command": "-workbench.action.quickInputBack",
-        "when": "inQuickOpen"
-    },
-    {
-        "key": "alt+right",
-        "command": "workbench.action.navigateForward"
-    },
-    {
-        "key": "ctrl+shift+-",
-        "command": "-workbench.action.navigateForward"
-    },
-    {
-        "key": "ctrl+shift+down",
-        "command": "editor.action.moveLinesDownAction",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "alt+down",
-        "command": "-editor.action.moveLinesDownAction",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+shift+up",
-        "command": "editor.action.moveLinesUpAction",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "alt+up",
-        "command": "-editor.action.moveLinesUpAction",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "alt+up",
-        "command": "editor.action.insertCursorAbove",
+        "key": "ctrl+m",
+        "command": "bookmarks.toggle",
         "when": "editorTextFocus"
     },
     {
-        "key": "shift+alt+up",
-        "command": "-editor.action.insertCursorAbove",
+        "key": "ctrl+alt+k",
+        "command": "-bookmarks.toggle",
         "when": "editorTextFocus"
     },
     {
-        "key": "alt+down",
-        "command": "editor.action.insertCursorBelow",
+        "key": "ctrl+.",
+        "command": "bookmarks.jumpToNext",
         "when": "editorTextFocus"
     },
     {
-        "key": "shift+alt+down",
-        "command": "-editor.action.insertCursorBelow",
+        "key": "ctrl+alt+l",
+        "command": "-bookmarks.jumpToNext",
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+alt+o",
-        "command": "workbench.action.files.openFile"
+        "key": "ctrl+,",
+        "command": "bookmarks.jumpToPrevious",
+        "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+o",
-        "command": "-workbench.action.files.openFile"
-    },
-    {
-        "key": "ctrl+e",
-        "command": "-workbench.action.quickOpen"
-    },
-    {
-        "key": "ctrl+e",
-        "command": "-workbench.action.quickOpenNavigateNextInFilePicker",
-        "when": "inFilesPicker && inQuickOpen"
-    },
-    {
-        "key": "ctrl+k s",
-        "command": "-workbench.action.files.saveWithoutFormatting"
-    },
-    {
-        "key": "ctrl+shift+s",
-        "command": "-workbench.action.files.saveAs"
-    },
-    {
-        "key": "ctrl+8",
-        "command": "-workbench.action.focusEighthEditorGroup"
-    },
-    {
-        "key": "ctrl+8",
-        "command": "workbench.action.lastEditorInGroup"
-    },
-    {
-        "key": "ctrl+9",
-        "command": "-workbench.action.lastEditorInGroup"
-    },
-    {
-        "key": "ctrl+9",
-        "command": "workbench.action.focusSideBar"
-    },
-    {
-        "key": "ctrl+0",
-        "command": "-workbench.action.focusSideBar"
-    },
-    {
-        "key": "ctrl+0",
-        "command": "workbench.action.focusPanel"
+        "key": "ctrl+alt+j",
+        "command": "-bookmarks.jumpToPrevious",
+        "when": "editorTextFocus"
     }
 ]

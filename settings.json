@@ -20,5 +20,14 @@
     "workbench.startupEditor": "none",
     "editor.renderWhitespace": "boundary",
     "diffEditor.ignoreTrimWhitespace": false,
-    "editor.tabCompletion": "on"
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "C_Cpp.updateChannel": "Insiders",
+    "java.home": "/home/neusoft/work/gsda2.0/android_p_a53/prebuilts/jdk/jdk9/linux-x86",
+    "svn.enableProposedApi": "none",
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "python.jediEnabled": false,
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    }
 }
